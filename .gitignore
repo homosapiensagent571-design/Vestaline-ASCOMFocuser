@@ -1,0 +1,22 @@
+﻿# Build artifacts
+**/bin/
+**/obj/
+*.user
+*.suo
+*.vs/
+
+# Temporary files
+*.tmp
+*.log
+
+# Large binary outputs
+*.exe
+*.dll
+*.pdb
+
+# Installer outputs
+Installer/Output/
+
+# OS files
+Thumbs.db
+desktop.ini

@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <OutputType>Library</OutputType>
+    <AssemblyName>ASCOM.Autofocus.Focuser</AssemblyName>
+    <RootNamespace>ASCOM.Autofocus</RootNamespace>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <LangVersion>8.0</LangVersion>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="ASCOM.DeviceInterfaces">
+      <HintPath>C:\Windows\assembly\GAC_MSIL\ASCOM.DeviceInterfaces\6.0.0.0__565de7938946fba7\ASCOM.DeviceInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="ASCOM.Utilities">
+      <HintPath>C:\Windows\assembly\GAC_MSIL\ASCOM.Utilities\6.0.0.0__565de7938946fba7\ASCOM.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="ASCOM.Exceptions">
+      <HintPath>C:\Windows\assembly\GAC_MSIL\ASCOM.Exceptions\6.0.0.0__565de7938946fba7\ASCOM.Exceptions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
