@@ -160,3 +160,16 @@ ASCOM_Driver/
 - 现有 App: `Newtestapp\`
 - COM ProgID: `ASCOM.Autofocus.Focuser`
 - CLSID: `{C0203456-68FB-4491-A516-BE513E1D10A1}`
+
+## Agent skills
+
+These files are read by the engineering workflow skills (`mp-triage`, `mp-tdd`, `mp-diagnose`, `mp-architecture`, `mp-grill-docs`).
+
+### Issue tracker
+GitHub Issues: [homosapiensagent571-design/Vestaline-ASCOMFocuser](https://github.com/homosapiensagent571-design/Vestaline-ASCOMFocuser/issues). See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+Default canonical names: `needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`. Categories: `bug`, `enhancement`. See `docs/agents/triage-labels.md`.
+
+### Domain docs
+Single-context layout. Glossary at `CONTEXT.md`, decisions at `docs/adr/`. See `docs/agents/domain.md`.
